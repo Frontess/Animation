@@ -34,10 +34,10 @@ http-server --cors
 Откройте проект в браузере по адресу http://localhost:8080.
 
 4. Структура проекта
-   plaintext
-   /
-   ├── index.html # Основной HTML файл
-   ├── styles.css # Стилизация проекта
-   ├── script.js # JavaScript для рендеринга видео
-   └── Footage/
-   └── video.mp4 # Видео для проекта
+   - **/** (корневая папка)
+  - **index.html**: Основной HTML файл
+  - **styles.css**: Стилизация проекта
+  - **script.js**: JavaScript для рендеринга видео
+  - **Footage/**: Папка с медиа
+    - **video.mp4**: Видео для проекта
+

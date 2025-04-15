@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive Video Fragments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Черный фон -->
+    <div class="background">
+      <!-- Видео -->
+      <video id="backgroundVideo" autoplay loop muted playsinline>
+        <source src="Footage/video.mp4" type="video/mp4" />
+        Ваш браузер не поддерживает HTML5-видео.
+      </video>
+
+      <!-- Текст с прямоугольниками -->
+      <div class="text-overlay">
+        <div class="line">
+          <span class="text">We're here</span>
+          <canvas class="cutout small"></canvas>
+          <span class="text">to make</span>
+        </div>
+        <div class="line">
+          <span class="text">healthy</span>
+          <canvas class="cutout medium"></canvas>
+          <span class="text">living effortless,</span>
+        </div>
+        <div class="line">
+          <span class="text">so you can</span>
+          <canvas class="cutout large"></canvas>
+          <span class="text">live longer</span>
+        </div>
+        <div class="line">
+          <span class="text">and happier</span>
+          <canvas class="cutout wide"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Подключение JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

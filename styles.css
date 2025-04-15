@@ -1,0 +1,65 @@
+/* Общий фон */
+.background {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Скрываем видео */
+#backgroundVideo {
+  display: none;
+}
+
+/* Текстовая часть */
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Белый текст */
+.text {
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cutout {
+  background-color: black; /* Резервный фон */
+  display: block;
+}
+
+/* Размеры canvas адаптивные */
+.small {
+  width: 15vw;
+  height: 8vw;
+}
+
+.medium {
+  width: 20vw;
+  height: 10vw;
+}
+
+.large {
+  width: 25vw;
+  height: 12vw;
+}
+
+.wide {
+  width: 30vw;
+  height: 10vw;
+}
